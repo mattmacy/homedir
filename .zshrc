@@ -11,7 +11,7 @@ export BLOCKSIZE=K
 export MAKEOBJDIRPREFIX=$HOME/devel/build
 #export MAKEOBJDIRPREFIX=$HOME/devel-local/build
 	
-path=(/sbin /bin $HOME/.bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin /usr/X11R6/bin $HOME/bin $HOME/.bin /usr/local/openjdk8/bin $HOME/.cargo/bin )
+path=(/sbin /bin $HOME/.bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin /usr/X11R6/bin $HOME/bin $HOME/.bin /usr/local/openjdk8/bin $HOME/.cargo/bin $HOME/go/bin )
 
 
   case $TERM in
@@ -23,3 +23,4 @@ path=(/sbin /bin $HOME/.bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/l
 
 export EDITOR="emacs -nw"
 export XTERM_SHELL=/usr/local/bin/zsh
+eval "$(direnv hook zsh)"
