@@ -1,0 +1,22 @@
+!Xft.dpi: 144
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+XTerm.termName: xterm-256color
+XTerm.vt100.metaSendsEscape: true
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?
+XTerm.vt100.saveLines: 4096
+XTerm.vt100.scrollBar: true
+XTerm.vt100.scrollbar.width: 12
+XTerm.vt100.reverseVideo: true
+
+!XTerm.vt100.faceName: Liberation Mono:size=10:antialias=false
+XTerm.vt100.font: 12x24
+!XTerm.vt100.faceName: fixed
+
+emacs.font: 12x24
